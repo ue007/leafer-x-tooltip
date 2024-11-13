@@ -26,7 +26,7 @@ const platformName = process.env.PLATFORM
 
 const platform = {
     'all': {
-        name: 'index', // output index.esm.js index.js
+        name: 'tooltip', // output index.esm.js index.js
         path: basePath,
         withFormat: supportPlatforms.includes('node') ? ['cjs'] : false,
         withGlobal: globalName,
